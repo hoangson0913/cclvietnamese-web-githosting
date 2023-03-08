@@ -37,10 +37,6 @@ a:hover {
   color: purple;
  }
 
- a:link {
-  color: green;
- }
-
 
 body {
   width: 100%;
@@ -70,16 +66,29 @@ iframe {
 }
 
 .nav-button {
-  color: green;
+  
   text-decoration: none;
-}
+  font-size: 1.2rem; /* set the font size to 1.2 rem */
+    padding: 0.5rem 1rem; /* set the padding to 0.5rem on top and bottom, and 1rem on left and right */
+    border-radius: 0.25rem; /* set the border radius to 0.25rem */
+    background-color: silver; /* set the background color to a shade of teal */
+    color: #fff; /* set the text color to white */
+    border: none; /* remove the border */
+    cursor: pointer; /* set the cursor to pointer on hover */
+  }
+
+  .nav-button:active {
+    background-color: rgb(111, 111, 111);
+    transform: translateY(2px);
+  }
+  
 .nav-button:hover {
   color: blue;
 }
 
 
 .nav-link {
-  color: green;
+  color: yellow;
   text-decoration: none;
 }
 .nav-link:hover {
